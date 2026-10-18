@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Roadster Rush</title>
+    <meta name="description" content="Roadster Rush: fly a hover roadster over a gridlocked sunset freeway. Free on Android." />
+    <style>
+      :root {
+        --bg: #fff6ef;
+        --ink: #241a33;
+        --dim: #6a5f78;
+        --card: #ffffff;
+        --edge: rgba(36, 26, 51, 0.1);
+        --accent: #e0526a;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #17112a;
+          --ink: #f6f0fa;
+          --dim: #b6abc6;
+          --card: #221a3a;
+          --edge: rgba(255, 255, 255, 0.1);
+          --accent: #ff9a5c;
+        }
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--ink);
+        font: 16px/1.6 system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+      }
+      header {
+        padding: 56px 16px 72px;
+        text-align: center;
+        color: #fff;
+        background: linear-gradient(180deg, #6f8fe0 0%, #c98fc0 45%, #ffb08a 85%, #ffd6a0 100%);
+      }
+      h1 {
+        margin: 0;
+        font-size: clamp(40px, 11vw, 72px);
+        line-height: 1;
+        font-style: italic;
+        font-weight: 900;
+        letter-spacing: 1px;
+        text-shadow: 0 3px 0 rgba(0, 0, 0, 0.18);
+      }
+      header p {
+        margin: 14px auto 0;
+        max-width: 520px;
+        font-size: 18px;
+        text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+      }
+      main {
+        max-width: 720px;
+        margin: -40px auto 0;
+        padding: 0 16px 64px;
+      }
+      .card {
+        background: var(--card);
+        border: 1px solid var(--edge);
+        border-radius: 18px;
+        padding: 20px;
+        margin-bottom: 16px;
+      }
+      .card h2 {
+        margin: 0 0 6px;
+        font-size: 18px;
+      }
+      .card p {
+        margin: 0;
+        color: var(--dim);
+      }
+      a {
+        color: var(--accent);
+        font-weight: 600;
+      }
+      footer {
+        text-align: center;
+        color: var(--dim);
+        font-size: 14px;
+        padding-bottom: 32px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>ROADSTER RUSH</h1>
+      <p>Fly a hover roadster over a gridlocked sunset freeway. Dodge traffic, barrel roll and ride the roofs.</p>
+    </header>
+    <main>
+      <div class="card">
+        <h2>Privacy</h2>
+        <p>How the game handles data (it has no accounts and keeps your progress on your device): <a href="privacy-policy.html">Privacy Policy</a></p>
+      </div>
+      <div class="card">
+        <h2>Support</h2>
+        <p>Questions, bugs or data requests: <a href="mailto:nehal.ubit@gmail.com">nehal.ubit@gmail.com</a></p>
+      </div>
+    </main>
+    <footer>© 2026 NG-Innovate</footer>
+  </body>
+</html>
